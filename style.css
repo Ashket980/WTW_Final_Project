@@ -5,13 +5,6 @@
     background-color: rgb(61, 248, 241);
 }
 
-#css{
-    margin: 5px;
-    width: 100px;
-    height: 50px;
-    border-radius: 20px;
-}
-
 .navbar {
     display: flex;
     justify-content:end;
