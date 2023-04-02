@@ -5,15 +5,16 @@
     background-color: rgb(61, 248, 241);
 }
 
+
 .navbar {
     display: flex;
-    justify-content:end;
+    justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
     color: #000000;
     padding: 10px;
+    font-family: cursive;
     border-radius: 50px;
-    border: 2px solid #0059ff;
   }
   
   .navbar a {
@@ -23,10 +24,28 @@
   }
   
   .signup-button {
-    background-color: #0059ff;
-    color: #333;
+    background-color: #0080ff;
+    color: #ffffff;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 50px;
+  }
+
+  .left-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .main_h{
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
