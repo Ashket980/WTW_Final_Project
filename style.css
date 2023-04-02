@@ -1,0 +1,39 @@
+.container_main{
+    padding: 10px;
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(61, 248, 241);
+}
+
+#css{
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #0059ff;
+  }
+  
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .signup-button {
+    background-color: #0059ff;
+    color: #333;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
